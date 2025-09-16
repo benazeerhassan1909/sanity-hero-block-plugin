@@ -22,7 +22,7 @@
     - **Image**: Upload images through Sanity asset integration
     - **Video**: Two video options
       - **Upload**: Upload video files (MP4, WebM, OGG support)
-      - **URL**: Embed external videos (YouTube, Vimeo, direct URLs)
+      - **URL**: Embed external videos (YouTube, Vimeo)
 - **Overlay Settings**:
   - Color overlay for media backgrounds
   - Adjustable opacity settings
@@ -175,7 +175,7 @@ export default function HeroBlockComponent({ heroBlock }) {
 - **`heroBgMedia`** (string) - Media type: `"image"` or `"video"` (when type is "media")
 - **`heroImage`** (image) - Background image asset
 - **`heroVideoType`** (string) - Video source type: `"url"` or `"upload"` (when media type is "video")
-- **`heroVideoUrl`** (url) - Video URL for external videos like YouTube, Vimeo, or direct video links (when video type is "url")
+- **`heroVideoUrl`** (url) - Video URL for external videos like YouTube and Vimeo (when video type is "url")
 - **`heroVideo`** (file) - Background video asset for uploaded files (when video type is "upload", accepts video/* formats)
 
 ### Overlay Settings (for media backgrounds)
