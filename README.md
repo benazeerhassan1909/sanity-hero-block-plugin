@@ -245,15 +245,27 @@ interface HeroBlockType {
 
 ## Screenshots
 
-![Hero Block Backend Settings](https://share.cleanshot.com/YF5ssx62Yf86VJsv2BM8)
+![Hero Block Backend Settings](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockBackendSettings.jpeg)
 
-![Hero Block Style Settings](https://share.cleanshot.com/dBmPq0Mz52tbZRFTnZmR)
+![Hero Block Style Settings](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockStyle.gif)
 
-![Hero Block Frontend Color BG](https://share.cleanshot.com/Kjh7DXny2tHfqrV1XD3s)
+![Hero Block Frontend Color BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/FrontendColorBG.jpeg)
 
-![Hero Block Frontend Image BG](https://share.cleanshot.com/YYrJjS8fMwp2xY024zFy)
+![Hero Block Frontend Image BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockImageBG.jpeg)
 
-![Hero Block Frontend Video BG](https://share.cleanshot.com/1p6RgSfgVzcq61QTHcRl)
+![Hero Block Frontend Video BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockVideoBG.gif)
+
+
+
+Hero Block Backend Settings: https://share.cleanshot.com/YF5ssx62Yf86VJsv2BM8
+
+Hero Block Style Settings: https://share.cleanshot.com/dBmPq0Mz52tbZRFTnZmR
+
+Hero Block Frontend Color BG: https://share.cleanshot.com/Kjh7DXny2tHfqrV1XD3s
+
+Hero Block Frontend Image BG: https://share.cleanshot.com/YYrJjS8fMwp2xY024zFy
+
+Hero Block Frontend Video BG: https://share.cleanshot.com/1p6RgSfgVzcq61QTHcRl
 
 
 ## Demo Video
