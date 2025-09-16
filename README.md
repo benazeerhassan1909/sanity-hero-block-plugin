@@ -249,7 +249,7 @@ interface HeroBlockType {
 
 ![Hero Block Style Settings](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockStyle.gif)
 
-![Hero Block Frontend Color BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/FrontendColorBG.jpeg)
+![Hero Block Frontend Color BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/FrontendColorBg.jpeg)
 
 ![Hero Block Frontend Image BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockImageBG.jpeg)
 
