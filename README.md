@@ -370,6 +370,3 @@ npm run watch
 
 [MIT](LICENSE) © Multidots
 
-## Support
-
-For issues, feature requests, or questions, please create an issue in the repository or contact [sanity@multidots.com](mailto:sanity@multidots.com).
