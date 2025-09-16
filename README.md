@@ -307,11 +307,11 @@ Hero Block Style Settings: https://share.cleanshot.com/n1KxfK55SZfc1l5jQcV5
 
 ![Hero Block Style Settings](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockStyleSettings.gif)
 
-Hero Block Frontend Color BG: https://share.cleanshot.com/Kjh7DXny2tHfqrV1XD3s
+Hero Block Frontend Color BG: https://share.cleanshot.com/ZGcRbsgjcKtRMfNNxRjR
 
 ![Hero Block Frontend Color BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/FrontendColorBg.png)
 
-Hero Block Frontend Image BG: https://share.cleanshot.com/YYrJjS8fMwp2xY024zFy
+Hero Block Frontend Image BG: https://share.cleanshot.com/mwkHC2NJkgsqpGYMqMbt
 
 ![Hero Block Frontend Image BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/FrontendImageBG.png)
 
