@@ -118,12 +118,28 @@ Ensure your GROQ queries properly expand asset references:
 
 ### 4. Frontend Component Usage
 
+For a clean and maintainable frontend implementation, create a dedicated component wrapper first, then use it in your pages. This approach provides better code organization and reusability.
+
+#### Create a Component Wrapper
+
+First, create a `HeroBlock.tsx` component in your components directory:
+
 ```tsx
+// components/HeroBlock.tsx
 import { HeroBlock } from "@multidots/sanity-plugin-hero-block";
 import { urlFor } from "@/sanity/lib/image";
 import { projectId, dataset } from "@/sanity/env";
 
-export default function HeroBlockComponent({ heroBlock }) {
+interface HeroBlockComponentProps {
+  heroBlock: any; // Replace with your specific type
+}
+
+export default function HeroBlockComponent({ heroBlock }: HeroBlockComponentProps) {
+  // Return null if no hero block data is provided
+  if (!heroBlock) {
+    return null;
+  }
+
   return (
     <HeroBlock 
       heroBlock={heroBlock} 
@@ -134,6 +150,43 @@ export default function HeroBlockComponent({ heroBlock }) {
   );
 }
 ```
+
+#### Use in Your Page Component
+
+Then, import and use the component in your page:
+
+```tsx
+// app/page.tsx or pages/[slug].tsx
+import HeroBlockComponent from "@/components/HeroBlock";
+
+export default function Page({ heroBlockData }) {
+  return (
+    <div>
+      {/* Hero Block Section */}
+      <HeroBlockComponent heroBlock={heroBlockData} />
+      
+      {/* Other page content */}
+      <main>
+        {/* Your page content here */}
+      </main>
+    </div>
+  );
+}
+```
+
+#### Why This Approach?
+
+**🔧 Better Organization**: Separating the hero block into its own component keeps your page components clean and focused.
+
+**♻️ Reusability**: You can easily use the same hero block component across multiple pages without code duplication.
+
+**🛠️ Easier Maintenance**: All hero block-specific logic and configuration stays in one place, making updates and debugging simpler.
+
+**🎯 Type Safety**: You can add proper TypeScript interfaces specific to your data structure.
+
+**🔍 Error Handling**: Built-in null checks prevent rendering errors when data is unavailable.
+
+
 ## Available Fields
 
 ### Content
@@ -267,9 +320,6 @@ Hero Block Frontend Video BG: https://share.cleanshot.com/1p6RgSfgVzcq61QTHcRl
 
 
 ![Hero Block Frontend Video BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockVideoBG.gif)
-
-
-## Demo Video
 
 
 
