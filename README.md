@@ -40,6 +40,30 @@
 - Sanity v3/v4 compatible
 - Comprehensive error handling and asset fallbacks
 
+## Available Fields
+
+### Content
+- **Heading Text** - Main hero title that appears prominently at the top of the block, ideal for grabbing attention with key messaging
+- **Subheading** - Secondary descriptive text positioned below the heading to provide additional context or supporting information
+- **Content Alignment** - Control text positioning with left, center, or right alignment options to match your design needs
+- **Text Color** - Customize the color of all text content using hex values to ensure brand consistency and readability
+
+### Call-to-Action Button
+- **Button Text** - Customizable button label text to create compelling calls-to-action that drive user engagement
+- **Button Link** - Set destination URLs for both internal page navigation and external website links
+- **Open in New Tab** - Toggle option to open linked pages in a new browser tab, ideal for external resources
+- **Button Colors** - Full control over button appearance with separate background and text color customization
+
+### Background Options
+- **Background Type** - Flexible choice between a solid color background or rich media (images/videos) to suit different design needs
+- **Background Color** - Select any color using a hex color picker when a solid background is preferred
+- **Background Media** - Upload and manage both image and video assets directly through Sanity's asset pipeline
+- **Video Source** - Choose between uploading your own video files or embedding videos from YouTube and Vimeo platforms
+
+### Overlay Settings
+- **Overlay Color** - Add a colored overlay layer on top of media backgrounds to improve text readability or create visual effects
+- **Overlay Opacity** - Fine-tune the transparency level of the color overlay from 0% (fully transparent) to 100% (fully opaque)
+
 ## Installation
 
 ```sh
@@ -186,30 +210,6 @@ export default function Page({ heroBlockData }) {
 
 **🔍 Error Handling**: Built-in null checks prevent rendering errors when data is unavailable.
 
-
-## Available Fields
-
-### Content
-- **Heading Text** - Main hero title
-- **Subheading** - Secondary text below the heading
-- **Content Alignment** - Left, center, or right alignment
-- **Text Color** - Custom color for text content
-
-### Call-to-Action Button
-- **Button Text** - Custom button label
-- **Button Link** - Internal or external URL
-- **Open in New Tab** - Option for external links
-- **Button Colors** - Background and text color customization
-
-### Background Options
-- **Background Type** - Choose between solid color or media
-- **Background Color** - Hex color picker for solid backgrounds
-- **Background Media** - Upload images or videos
-- **Video Source** - Upload video or use external URLs (YouTube, Vimeo)
-
-### Overlay Settings
-- **Overlay Color** - Color overlay for media backgrounds
-- **Overlay Opacity** - Transparency control (0-100%)
 
 ## Schema Fields
 
