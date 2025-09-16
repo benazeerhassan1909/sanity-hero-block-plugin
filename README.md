@@ -21,8 +21,8 @@
   - **Media**: Choose between image or video
     - **Image**: Upload images through Sanity asset integration
     - **Video**: Two video options
-      - **Upload**: Upload video files (MP4, WebM, OGG support)
-      - **URL**: Embed external videos (YouTube, Vimeo)
+      - **Upload Video**: Upload video files (MP4, WebM, OGG support)
+      - **YouTube/Vimeo**: Embed external videos (YouTube, Vimeo)
 - **Overlay Settings**:
   - Color overlay for media backgrounds
   - Adjustable opacity settings
@@ -152,7 +152,7 @@ export default function HeroBlockComponent({ heroBlock }) {
 - **Background Type** - Choose between solid color or media
 - **Background Color** - Hex color picker for solid backgrounds
 - **Background Media** - Upload images or videos
-- **Video Source** - Upload files or use external URLs (YouTube, Vimeo)
+- **Video Source** - Upload video or use external URLs (YouTube, Vimeo)
 
 ### Overlay Settings
 - **Overlay Color** - Color overlay for media backgrounds
@@ -245,14 +245,14 @@ interface HeroBlockType {
 
 ## Screenshots
 
-Hero Block Backend Settings: https://share.cleanshot.com/YF5ssx62Yf86VJsv2BM8
+Hero Block Backend Settings: https://share.cleanshot.com/n0MbHpMxh0lt3Mfzt0kl
 
 ![Hero Block Backend Settings](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockBackendSettings.jpeg)
 
-Hero Block Style Settings: https://share.cleanshot.com/dBmPq0Mz52tbZRFTnZmR
+Hero Block Style Settings: https://share.cleanshot.com/n1KxfK55SZfc1l5jQcV5
 
 
-![Hero Block Style Settings](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockStyle.gif)
+![Hero Block Style Settings](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockStyleSettings.gif)
 
 Hero Block Frontend Color BG: https://share.cleanshot.com/Kjh7DXny2tHfqrV1XD3s
 
