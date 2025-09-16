@@ -313,7 +313,7 @@ Hero Block Frontend Color BG: https://share.cleanshot.com/ZGcRbsgjcKtRMfNNxRjR
 
 Hero Block Frontend Image BG: https://share.cleanshot.com/mwkHC2NJkgsqpGYMqMbt
 
-![Hero Block Frontend Image BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/FrontendImageBG.png)
+![Hero Block Frontend Image BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/FrontendImageBg.png)
 
 
 Hero Block Frontend Video BG: https://share.cleanshot.com/1p6RgSfgVzcq61QTHcRl
