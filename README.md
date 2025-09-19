@@ -321,7 +321,9 @@ Hero Block Frontend Video BG: https://share.cleanshot.com/1p6RgSfgVzcq61QTHcRl
 
 ![Hero Block Frontend Video BG](https://github.com/benazeerhassan1909/sanity-hero-block-plugin/blob/main/public/HeroBlockVideoBG.gif)
 
+## Demo Video
 
+https://share.cleanshot.com/wwGkZbDyG4mCsf4wSHcH
 
 ## Troubleshooting
 
